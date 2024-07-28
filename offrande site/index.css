@@ -1,0 +1,692 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+
+header{
+    width: 100%; 
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+
+}
+header  img{
+    width: 200px;
+    margin: 0px 200px 0px 100px;
+    
+}
+header .deux h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    width: 80%;
+    line-height: 50px;
+
+ 
+}
+ .un{
+    background: url(bg1.jpg);
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+}
+.uno{
+    background-color: rgba(0, 0, 255, 0.575); 
+    height: 100%;
+
+}  
+.uno .premier{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+
+ }
+ 
+.uno .premier img{
+    width: 260px;
+    margin-left: 6%;
+    margin-right: 5%;
+}
+.uno .premier .nom{
+    background-color: rgba(114, 114, 114, 0.534);
+    padding: 20px 150px;
+    border-radius: 20px;
+    line-height: 50px;
+    width: 35%;
+}
+.uno .premier .nom h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.uno .premier .nom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: white;
+
+} 
+.uno .deuxieme{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+
+ }
+ 
+.uno .deuxieme img{
+    width: 230px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.uno .deuxieme .nom{
+    background-color: rgba(114, 114, 114, 0.534);
+    padding: 20px 150px;
+    border-radius: 20px;
+    line-height: 50px;
+    width: 35%;
+}
+.uno .deuxieme .nom h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.uno .deuxieme .nom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: white;
+
+} 
+.uno .troisieme{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+
+ }
+ 
+.uno .troisieme img{
+    width: 230px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.uno .troisieme .nom{
+    background-color: rgba(114, 114, 114, 0.534);
+    padding: 20px 150px;
+    border-radius: 20px;
+    line-height: 50px;
+    width: 35%;
+}
+.uno .troisieme .nom h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.uno .troisieme .nom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: white;
+
+} 
+.uno .quatrieme{
+    display: flex;
+    align-items: center;
+    padding-top: 30px; 
+    padding-bottom: 10vh;
+
+ }
+ 
+.uno .quatrieme img{
+    width: 230px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.uno .quatrieme .nom{
+    background-color: rgba(114, 114, 114, 0.534);
+    padding: 20px 150px;
+    border-radius: 20px;
+    line-height: 50px;
+    width: 35%;
+}
+.uno .quatrieme .nom h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.uno .quatrieme .nom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.uno .quatrieme .nom h3{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+
+}
+
+
+
+@media screen and (max-width: 1500px) { 
+    header  img{
+        width: 120px;
+        margin: 0px 100px 0px 50px;
+        
+    }
+    header .deux h2{ 
+        font-size: 24px;
+        width: 80%;
+        line-height: 35px;
+    
+     
+    }   
+    .uno .premier{ 
+        padding-top: 80px;
+    
+    }
+     
+    .uno .premier img{
+        width: 160px;
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+    .uno .premier .nom{ 
+        padding: 20px  50px;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 35%;
+    }
+    .uno .premier .nom h2 {
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .premier .nom p{ 
+        font-size: 23px;
+        letter-spacing: 1px; 
+    
+    } 
+    .uno .deuxieme{ 
+        padding-top: 10px;
+    
+     }
+     
+    .uno .deuxieme img{
+        width: 145px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .deuxieme .nom{ 
+        padding: 20px  50px;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 35%;
+    }
+    .uno .deuxieme .nom h2 {
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .deuxieme .nom p{ 
+        font-size: 23px;
+        letter-spacing: 1px; 
+    
+    } 
+     
+    .uno .quatrieme{ 
+        padding-top: 30px;  
+    
+     }
+     
+    .uno .quatrieme img{
+        width: 145px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .quatrieme .nom{ 
+        padding: 20px 50px;
+        border-radius: 20px;
+        line-height: 35px; 
+    }
+    .uno .quatrieme .nom h2 {
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom p{ 
+        font-size: 23px;
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom h3{
+        font-size: 20px; 
+        margin-top: 15px;
+    
+    }
+    } 
+
+@media screen and (max-width: 1500px) { 
+    header  img{
+        width: 120px;
+        margin: 0px 100px 0px 50px;
+        
+    }
+    header .deux h2{ 
+        font-size: 24px;
+        width: 80%;
+        line-height: 35px;
+    
+     
+    }   
+    .uno .premier{ 
+        padding-top: 80px;
+    
+    }
+     
+    .uno .premier img{
+        width: 160px;
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+    .uno .premier .nom{ 
+        padding: 20px  50px;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 35%;
+    }
+    .uno .premier .nom h2 {
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .premier .nom p{ 
+        font-size: 23px;
+        letter-spacing: 1px; 
+    
+    } 
+    .uno .deuxieme{ 
+        padding-top: 30px;
+    
+     }
+     
+    .uno .deuxieme img{
+        width: 145px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .deuxieme .nom{ 
+        padding: 20px  50px;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 35%;
+    }
+    .uno .deuxieme .nom h2 {
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .deuxieme .nom p{ 
+        font-size: 23px;
+        letter-spacing: 1px; 
+    
+    } 
+     
+    .uno .quatrieme{ 
+        padding-top: 30px;  
+    
+     }
+     
+    .uno .quatrieme img{
+        width: 145px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .quatrieme .nom{ 
+        padding: 20px 50px;
+        border-radius: 20px;
+        line-height: 35px; 
+    }
+    .uno .quatrieme .nom h2 {
+        font-size: 18px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom p{ 
+        font-size: 23px;
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom h3{
+        font-size: 20px; 
+        margin-top: 15px;
+    
+    }
+    }
+ 
+@media screen and (max-width: 1000px) { 
+    .un{ 
+        background-position-x:  50%;
+   }
+    header  img{
+        width: 90px;
+        margin: 0px 60px 0px 30px;
+        
+    }
+    header .deux h2{ 
+        font-size: 20px;
+        width: 80%;
+        line-height: 25px;
+    
+     
+    }   
+    .uno .premier{ 
+        padding-top: 120px;
+    
+    }
+     
+    .uno .premier img{
+        width: 145px;
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+    .uno .premier .nom{ 
+        padding: 20px  30px;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 55%;
+    }
+    .uno .premier .nom h2 {
+        font-size: 17px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .premier .nom p{ 
+        font-size:20px;
+        letter-spacing: 1px; 
+    
+    } 
+    .uno .deuxieme{ 
+        padding-top: 10px;
+    
+     }
+     
+    .uno .deuxieme img{
+        width: 135px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .deuxieme .nom{ 
+        padding: 20px  30px;
+        border-radius: 20px;
+        line-height: 35px;
+        width: 55%;
+    }
+    .uno .deuxieme .nom h2 {
+        font-size: 17px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .deuxieme .nom p{ 
+        font-size: 20px;
+        letter-spacing: 1px; 
+    
+    } 
+     
+    .uno .quatrieme{ 
+        padding-top: 10px;  
+        padding-bottom: 20vh;
+    
+     }
+     
+    .uno .quatrieme img{
+        width: 135px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .quatrieme .nom{ 
+        padding: 20px 30px;
+        border-radius: 20px;
+        line-height: 35px;  
+        width: 55%;
+    }
+    .uno .quatrieme .nom h2 {
+        font-size: 17px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom p{ 
+        font-size: 20px;
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom h3{
+        font-size: 20px; 
+        margin-top: 10px;
+    
+    }
+    } 
+
+ 
+    @media screen and (max-width: 1000px) { 
+        .un{ 
+            background-position-x:  50%;
+       }
+        header  img{
+            width: 90px;
+            margin: 0px 60px 0px 30px;
+            
+        }
+        header .deux h2{ 
+            font-size: 20px;
+            width: 80%;
+            line-height: 25px;
+        
+         
+        }   
+        .uno .premier{ 
+            padding-top: 120px;
+        
+        }
+         
+        .uno .premier img{
+            width: 145px;
+            margin-left: 6%;
+            margin-right: 5%;
+        }
+        .uno .premier .nom{ 
+            padding: 20px  30px;
+            border-radius: 20px;
+            line-height: 35px;
+            width: 55%;
+        }
+        .uno .premier .nom h2 {
+            font-size: 17px; 
+            letter-spacing: 1px; 
+        
+        }
+        .uno .premier .nom p{ 
+            font-size:20px;
+            letter-spacing: 1px; 
+        
+        } 
+        .uno .deuxieme{ 
+            padding-top: 10px;
+        
+         }
+         
+        .uno .deuxieme img{
+            width: 135px;
+            margin-left: 7%;
+            margin-right: 5%;
+        }
+        .uno .deuxieme .nom{ 
+            padding: 20px  30px;
+            border-radius: 20px;
+            line-height: 35px;
+            width: 55%;
+        }
+        .uno .deuxieme .nom h2 {
+            font-size: 17px; 
+            letter-spacing: 1px; 
+        
+        }
+        .uno .deuxieme .nom p{ 
+            font-size: 20px;
+            letter-spacing: 1px; 
+        
+        } 
+         
+        .uno .quatrieme{ 
+            padding-top: 10px;  
+            padding-bottom: 20vh;
+        
+         }
+         
+        .uno .quatrieme img{
+            width: 135px;
+            margin-left: 7%;
+            margin-right: 5%;
+        }
+        .uno .quatrieme .nom{ 
+            padding: 20px 30px;
+            border-radius: 20px;
+            line-height: 35px;  
+            width: 55%;
+        }
+        .uno .quatrieme .nom h2 {
+            font-size: 17px; 
+            letter-spacing: 1px; 
+        
+        }
+        .uno .quatrieme .nom p{ 
+            font-size: 20px;
+            letter-spacing: 1px; 
+        
+        }
+        .uno .quatrieme .nom h3{
+            font-size: 20px; 
+            margin-top: 10px;
+        
+        }
+        }
+
+
+
+ 
+@media screen and (max-width: 500px) { 
+    .un{ 
+        background-position-x:  60%;
+   }
+    header  img{
+        width: 60px;
+        margin: 0px 40px 0px 20px;
+        
+    }
+    header .deux h2{ 
+        font-size: 12px;
+        width: 80%;
+        line-height: 20px;
+    
+     
+    }   
+    .uno .premier{ 
+        padding-top: 80px;
+    
+    }
+     
+    .uno .premier img{
+        width: 60px;
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+    .uno .premier .nom{ 
+        padding: 15px  20px;
+        border-radius: 10px;
+        line-height: 20px;
+        width: 60%;
+    }
+    .uno .premier .nom h2 {
+        font-size: 10px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .premier .nom p{ 
+        font-size:15px;
+        letter-spacing: 1px; 
+    
+    } 
+    .uno .deuxieme{ 
+        padding-top: 30px;
+    
+     }
+     
+    .uno .deuxieme img{
+        width: 55px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .deuxieme .nom{ 
+        padding: 15px  20px;
+        border-radius: 10px;
+        line-height: 20px;
+        width: 60%;
+    }
+    .uno .deuxieme .nom h2 {
+        font-size: 10px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .deuxieme .nom p{ 
+        font-size: 15px;
+        letter-spacing: 1px; 
+    
+    } 
+     
+    .uno .quatrieme{ 
+        padding-top: 30px;  
+        padding-bottom: 35vh;
+    
+     }
+     
+    .uno .quatrieme img{
+        width: 55px;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .uno .quatrieme .nom{ 
+        padding: 15px 20px;
+        border-radius: 10px;
+        line-height: 20px;  
+        width: 60%;
+    }
+    .uno .quatrieme .nom h2 {
+        font-size: 10px; 
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom p{ 
+        font-size: 15px;
+        letter-spacing: 1px; 
+    
+    }
+    .uno .quatrieme .nom h3{
+        font-size: 13px; 
+        margin-top: 7px;
+    
+    }
+    }
+
+ 
+
