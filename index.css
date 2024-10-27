@@ -25,6 +25,7 @@ header .deux h2{
 
  
 }
+ 
  .un{
     background: url(bg1.jpg);
     width: 100%;
@@ -35,7 +36,19 @@ header .deux h2{
     background-color: rgba(0, 0, 255, 0.575); 
     height: 100%;
 
-}  
+}   
+.uno h4{  
+    font-size:34px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:40px;
+    background-color: rgba(128, 128, 128, 0.507);
+    padding-bottom: 40px;  
+    padding-left: 20px;
+    color: rgb(8, 8, 8)
+}
+.uno h4 span{  
+    color: rgb(30, 137, 207); 
+}
 .uno .premier{
     display: flex;
     align-items: center;
@@ -69,6 +82,16 @@ header .deux h2{
     color: white;
 
 } 
+.bouton{
+    margin-left: 40px;
+    font-size: 28px;
+    background-color: rgb(238, 107, 67);
+    padding: 3px;
+    border: none;
+    border-radius: 10%; 
+    cursor: pointer;
+
+}
 .uno .deuxieme{
     display: flex;
     align-items: center;
@@ -176,9 +199,22 @@ header .deux h2{
     margin-top: 20px;
 
 }
+.nom a{  
+    font-size: 28px;
+    background-color: rgb(30, 137, 207);
+    padding: 3px;
+    border: none;
+    border-radius: 10%; 
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;
+    
+
+}
 
 
-
+ 
 @media screen and (max-width: 1500px) { 
     header  img{
         width: 120px;
@@ -192,6 +228,19 @@ header .deux h2{
     
      
     }   
+    .uno h4{ 
+        margin-top: 20px;
+        font-size: 22px; 
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:40px;
+        background-color: rgba(128, 128, 128, 0.507);
+        padding-bottom: 40px;  
+        padding-left: 20px;
+        color: rgb(8, 8, 8)
+    }
+    .uno h4 span{  
+        color: rgb(30, 137, 207); 
+    }
     .uno .premier{ 
         padding-top: 80px;
     
@@ -218,104 +267,15 @@ header .deux h2{
         letter-spacing: 1px; 
     
     } 
-    .uno .deuxieme{ 
-        padding-top: 10px;
-    
-     }
-     
-    .uno .deuxieme img{
-        width: 145px;
-        margin-left: 7%;
-        margin-right: 5%;
-    }
-    .uno .deuxieme .nom{ 
-        padding: 20px  50px;
-        border-radius: 20px;
-        line-height: 35px;
-        width: 35%;
-    }
-    .uno .deuxieme .nom h2 {
-        font-size: 18px; 
-        letter-spacing: 1px; 
+    .bouton{
+        margin-left: 15px;
+        font-size: 18px;
+        background-color: rgb(238, 107, 67);
+        padding: 3px;
+        border: none;
+        border-radius: 10%;
     
     }
-    .uno .deuxieme .nom p{ 
-        font-size: 23px;
-        letter-spacing: 1px; 
-    
-    } 
-     
-    .uno .quatrieme{ 
-        padding-top: 30px;  
-    
-     }
-     
-    .uno .quatrieme img{
-        width: 145px;
-        margin-left: 7%;
-        margin-right: 5%;
-    }
-    .uno .quatrieme .nom{ 
-        padding: 20px 50px;
-        border-radius: 20px;
-        line-height: 35px; 
-    }
-    .uno .quatrieme .nom h2 {
-        font-size: 18px; 
-        letter-spacing: 1px; 
-    
-    }
-    .uno .quatrieme .nom p{ 
-        font-size: 23px;
-        letter-spacing: 1px; 
-    
-    }
-    .uno .quatrieme .nom h3{
-        font-size: 20px; 
-        margin-top: 15px;
-    
-    }
-    } 
-
-@media screen and (max-width: 1500px) { 
-    header  img{
-        width: 120px;
-        margin: 0px 100px 0px 50px;
-        
-    }
-    header .deux h2{ 
-        font-size: 24px;
-        width: 80%;
-        line-height: 35px;
-    
-     
-    }   
-    .uno .premier{ 
-        padding-top: 80px;
-    
-    }
-     
-    .uno .premier img{
-        width: 160px;
-        margin-left: 6%;
-        margin-right: 5%;
-    }
-    .uno .premier .nom{ 
-        padding: 20px  50px;
-        border-radius: 20px;
-        line-height: 35px;
-        width: 35%;
-    }
-    .uno .premier .nom h2 {
-        font-size: 18px; 
-        letter-spacing: 1px; 
-    
-    }
-    .uno .premier .nom p{ 
-        font-size: 23px;
-        letter-spacing: 1px; 
-    
-    } 
     .uno .deuxieme{ 
         padding-top: 30px;
     
@@ -372,113 +332,22 @@ header .deux h2{
         font-size: 20px; 
         margin-top: 15px;
     
-    }
-    }
- 
-@media screen and (max-width: 1000px) { 
-    .un{ 
-        background-position-x:  50%;
-   }
-    header  img{
-        width: 90px;
-        margin: 0px 60px 0px 30px;
+    } 
+    .nom a{  
+        font-size: 18px;
+        background-color: rgb(30, 137, 207);
+        padding: 3px;
+        border: none;
+        border-radius: 10%; 
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        text-decoration: none; 
+        color: black;
         
-    }
-    header .deux h2{ 
-        font-size: 20px;
-        width: 80%;
-        line-height: 25px;
-    
-     
-    }   
-    .uno .premier{ 
-        padding-top: 120px;
     
     }
-     
-    .uno .premier img{
-        width: 145px;
-        margin-left: 6%;
-        margin-right: 5%;
     }
-    .uno .premier .nom{ 
-        padding: 20px  30px;
-        border-radius: 20px;
-        line-height: 35px;
-        width: 55%;
-    }
-    .uno .premier .nom h2 {
-        font-size: 17px; 
-        letter-spacing: 1px; 
-    
-    }
-    .uno .premier .nom p{ 
-        font-size:20px;
-        letter-spacing: 1px; 
-    
-    } 
-    .uno .deuxieme{ 
-        padding-top: 10px;
-    
-     }
-     
-    .uno .deuxieme img{
-        width: 135px;
-        margin-left: 7%;
-        margin-right: 5%;
-    }
-    .uno .deuxieme .nom{ 
-        padding: 20px  30px;
-        border-radius: 20px;
-        line-height: 35px;
-        width: 55%;
-    }
-    .uno .deuxieme .nom h2 {
-        font-size: 17px; 
-        letter-spacing: 1px; 
-    
-    }
-    .uno .deuxieme .nom p{ 
-        font-size: 20px;
-        letter-spacing: 1px; 
-    
-    } 
-     
-    .uno .quatrieme{ 
-        padding-top: 10px;  
-        padding-bottom: 20vh;
-    
-     }
-     
-    .uno .quatrieme img{
-        width: 135px;
-        margin-left: 7%;
-        margin-right: 5%;
-    }
-    .uno .quatrieme .nom{ 
-        padding: 20px 30px;
-        border-radius: 20px;
-        line-height: 35px;  
-        width: 55%;
-    }
-    .uno .quatrieme .nom h2 {
-        font-size: 17px; 
-        letter-spacing: 1px; 
-    
-    }
-    .uno .quatrieme .nom p{ 
-        font-size: 20px;
-        letter-spacing: 1px; 
-    
-    }
-    .uno .quatrieme .nom h3{
-        font-size: 20px; 
-        margin-top: 10px;
-    
-    }
-    } 
-
- 
+  
     @media screen and (max-width: 1000px) { 
         .un{ 
             background-position-x:  50%;
@@ -494,9 +363,21 @@ header .deux h2{
             line-height: 25px;
         
          
-        }   
+        }  
+        .uno h4{ 
+            font-size: 20px; 
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top:30px;
+            background-color: rgba(128, 128, 128, 0.507);
+            padding-bottom: 20px;  
+            padding-left: 20px;
+            color: rgb(8, 8, 8)
+        }
+        .uno h4 span{  
+            color: rgb(30, 137, 207); 
+        }
         .uno .premier{ 
-            padding-top: 120px;
+            padding-top: 80px;
         
         }
          
@@ -579,8 +460,21 @@ header .deux h2{
             font-size: 20px; 
             margin-top: 10px;
         
+        } 
+        .nom a{  
+            font-size: 18px;
+            background-color: rgb(30, 137, 207);
+            padding: 3px;
+            border: none;
+            border-radius: 10%; 
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            text-decoration: none; 
+            color: black;
+            
+        
         }
-        }
+    }
 
 
 
@@ -601,8 +495,21 @@ header .deux h2{
     
      
     }   
+    .uno h4{ 
+        font-size: 13px; 
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:30px;
+        background-color: rgba(128, 128, 128, 0.507);
+        padding-bottom: 20px;  
+        padding-left: 20px;
+        color: rgb(8, 8, 8)
+    }
+    .uno h4 span {  
+        color: rgb(30, 137, 207); 
+    } 
     .uno .premier{ 
         padding-top: 80px;
+        width: 90%;
     
     }
      
@@ -625,10 +532,21 @@ header .deux h2{
     .uno .premier .nom p{ 
         font-size:15px;
         letter-spacing: 1px; 
+        color: rgb(0, 0, 0);
     
     } 
+    .bouton{
+        margin-left: 10px;
+        font-size: 12px;
+        background-color: rgb(238, 107, 67);
+        padding: 3px;
+        border: none;
+        border-radius: 10%;
+
+    }
     .uno .deuxieme{ 
         padding-top: 30px;
+        width: 90%;
     
      }
      
@@ -646,17 +564,19 @@ header .deux h2{
     .uno .deuxieme .nom h2 {
         font-size: 10px; 
         letter-spacing: 1px; 
-    
+        
     }
     .uno .deuxieme .nom p{ 
         font-size: 15px;
         letter-spacing: 1px; 
+        color: rgb(0, 0, 0);
     
     } 
      
     .uno .quatrieme{ 
         padding-top: 30px;  
         padding-bottom: 35vh;
+        width: 90%;
     
      }
      
@@ -677,16 +597,37 @@ header .deux h2{
     
     }
     .uno .quatrieme .nom p{ 
-        font-size: 15px;
-        letter-spacing: 1px; 
-    
+        font-size: 15px; 
+        color: rgb(0, 0, 0);
+        letter-spacing: -1px;
+    }
+    .uno .quatrieme .nom .boutonE{ 
+        font-size: 12px;
+        background-color: rgb(238, 107, 67);
+        padding: 3px;
+        border: none;
+        border-radius: 10%;
+
     }
     .uno .quatrieme .nom h3{
         font-size: 13px; 
         margin-top: 7px;
     
+    }  
+    .nom a{  
+        font-size: 12px;
+        background-color: rgb(30, 137, 207);
+        padding: 3px;
+        border: none;
+        border-radius: 10%; 
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        text-decoration: none; 
+        color: black;
+        
+    
     }
-    }
+ }
 
  
 
